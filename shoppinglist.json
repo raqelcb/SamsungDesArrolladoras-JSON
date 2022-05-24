@@ -1,79 +1,144 @@
-{
-	"supermercado-00": [
-		{
-			"id": "mercadona-rivas-luna",
-			"name": "Mercadona La Luna",
-			"chain": "Mercadona",
-			"filename": "mercadona-rivas-luna.jpg",
-			"address": {
-				"street": "Calle Lolo Rico, 1",
-				"city": "Rivas Vaciamadrid",
-				"coordinates": {
-					"lat": 40.37644553720263,
-					"lon": -3.533734966434206
-				},
-				"schedule": {
-					"daysOpen": "Lunes - Sábado",
-					"hoursOpen": "9:00 - 21:30",
-					"daysClosed": "Domingo"
-				}
-			},
-			"products": [
-				{
-					"id": "mercadona-pechuga-extra-fina-bandeja",
-					"name": "Pechugas Extra Finas",
-					"description": "Pechugas de pollo cortadas a mano",
-					"brand": "Mercadona", 
-					"filename": "mercadona-pechuga-extra-fina-bandeja.jpg",
-					"origin": "España",
-					"sku": 923746923,
-					"type": [
-						"Carne",
-						"Aves y Conejo"
-					],
-					"quantity": 2,
-					"measurement":"650 gramos",
-					"price": {
-						"pvpUnit": "3,90",
-						"pvpKg": "6,00",
-						"pvpDiscount": "2,99",
-						"currency": "€"
-					},
-					"caducity": "03/06/2022",
-					"validityDiscount": {
-						"start": "01/06/2022",
-						"end": "15/06/2022"
-					},
-					"isBought": true,
-					"usuallyBought": true
-				},
-				{
-					"id": "mercadona-brocheta-pollo",
-					"name": "Brochetas Pollo Fresco",
-					"description": "Pechugas de pollo cortadas a mano",
-					"brand": "Mercadona", 
-					"filename": "mercadona-brocheta-pollo.jpg",
-					"origin": "España",
-					"sku": 237484993,
-					"type": [
-						"Carne",
-						"Aves y Conejo"
-					],					
-					"quantity": 3,
-					"measurement": [
-						"350 gramos",
-						"4 unidades"
-					],
-					"price": {
-						"pvpUnit": "3,05",
-						"pvpKg": "8,84",
-						"currency": "€"
-					},
-					"caducity": "03/06/2022",
-					"isBought": true,
-					"usuallyBought": true
-				}
-			]
-		}
-	]
-}
+[
+    {
+        "id": "mercadona-rivas-luna",
+        "name": "Mercadona La Luna",
+        "chain": "Mercadona",
+        "filename": "mercadona-rivas-luna.jpg",
+        "address": {
+            "street": "Calle Lolo Rico, 1",
+            "city": "Rivas Vaciamadrid",
+            "coordinates": {
+                "lat": 40.37644553720263,
+                "lon": -3.533734966434206
+            },
+            "schedule": {
+                "daysOpen": "Lunes - Sábado",
+                "hoursOpen": "9:00 - 21:30",
+                "daysClosed": "Domingo"
+            }
+        },
+        "products": [
+            {
+                "id": "mercadona-pechuga-extra-fina-bandeja",
+                "name": "Pechugas Extra Finas",
+                "description": "Pechugas de pollo cortadas a mano",
+                "brand": "Mercadona",
+                "filename": "assets/mercadona-pechuga-extra-fina-bandeja.jpg",
+                "origin": "España",
+                "sku": 923746923,
+                "types": [
+                    "Carne",
+                    "Aves y Conejo"
+                ],
+                "quantity": 2,
+                "measurement": "650 gramos",
+                "price": {
+                    "pvpUnit": 3.9,
+                    "pvpKg": 6,
+                    "pvpDiscount": 2.99,
+                    "currency": "EUR"
+                },
+                "expiry": "06/03/2022",
+                "validityDiscount": {
+                    "start": "06/01/2022",
+                    "end": "06/15/2022"
+                },
+                "hasBeenPurchased": false,
+                "isUsuallyPurchased": true
+            },
+            {
+                "id": "mercadona-brocheta-pollo",
+                "name": "Brochetas Pollo Fresco",
+                "description": "Pechugas de pollo cortadas a mano",
+                "brand": "Mercadona",
+                "filename": "assets/mercadona-brocheta-pollo.jpg",
+                "origin": "España",
+                "sku": 237484993,
+                "types": [
+                    "Carne",
+                    "Aves y Conejo"
+                ],
+                "quantity": 3,
+                "measurement": [
+                    "350 gramos",
+                    "4 unidades"
+                ],
+                "price": {
+                    "pvpUnit": 3.05,
+                    "pvpKg": 8.84,
+                    "currency": "EUR"
+                },
+                "expiry": "06/03/2022",
+                "hasBeenPurchased": false,
+                "isUsuallyPurchased": false
+            }
+        ]
+    },
+	{
+        "id": "lidl-rivas-futura",
+        "name": "Lidl Rivas Futura",
+        "chain": "Lidl",
+        "filename": "lidl-rivas-futura.jpg",
+        "address": {
+            "street": "Calle Marie Curie, 2",
+            "city": "Rivas Vaciamadrid",
+            "coordinates": {
+                "lat": 40.33994141974007,
+                "lon": -3.52639
+            },
+            "schedule": {
+                "daysOpen": "Lunes - Domingo",
+                "hoursOpen": "9:00 - 21:30",
+				"sundayOpen": "10:00 - 15:00",
+                "daysClosed": null
+            }
+        },
+        "products": [
+            {
+                "id": "lidl-pechuga-pollo-bandeja",
+                "name": "Pechugas Pollo",
+                "description": "Pechugas de pollo fileteadas",
+                "brand": "Lidl",
+                "filename": "assets/lidl-pechuga-pollo-bandeja.jpg",
+                "origin": "España",
+                "sku": 6327819,
+                "types": [
+                    "Carne",
+                    "Aves y Conejo"
+                ],
+                "quantity": 2,
+                "measurement": "500 gramos",
+                "price": {
+                    "pvpUnit": 3.85,
+                    "pvpKg": 7.70,
+                    "currency": "EUR"
+                },
+                "expiry": "05/30/2022",
+                "hasBeenPurchased": false,
+                "isUsuallyPurchased": true
+            },
+            {
+                "id": "lidl-costillar-cerdo",
+                "name": "Costillar de Cerdo",
+                "description": "Costilla tira de cerdo",
+                "brand": "Lidl",
+                "filename": "assets/lidl-costillar-cerdo.jpg",
+                "origin": "España",
+                "sku": 9273634,
+                "types": [
+                    "Carne",
+                    "Cerdo"
+                ],
+                "quantity": 5,
+                "measurement": "1 kg",
+                "price": {
+                    "pvpUnit": 6.99,
+                    "currency": "EUR"
+                },
+                "expiry": "06/31/2022",
+                "hasBeenPurchased": true,
+                "isUsuallyPurchased": true
+            }
+        ]
+    }
+]

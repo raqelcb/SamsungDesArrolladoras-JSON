@@ -19,7 +19,7 @@
     ·
     <a style="color:#874EA0" href="https://github.com/raqelcb/SamsungDesArrolladoras-API_HTML">API’s de HTML5</a>
      ·
-    <a style="color:#874EA0" href="https://github.com/raqelcb/SamsungDesArrolladoras-AngularL">Angular</a>
+    <a style="color:#874EA0" href="https://github.com/raqelcb/SamsungDesArrolladoras-Angular">Angular</a>
      ·
     <a style="color:#874EA0" href="https://github.com/raqelcb/SamsungDesArrolladoras-Lab_FullStack">Laboratorio FullStack</a>
   </p>
@@ -49,7 +49,7 @@
 ## About The Project
 
 El objetivo de este proyecto es definir una lista de la compra en formato JSON con el mayor detalle posible, siendo posible marcar si se ha adquirido o no el producto.
-`SamsungDesarrolladoras`, `TypeScript`
+`SamsungDesarrolladoras`, `JSON`, `XML`
 <!-- <br>
 
 ### Parts of the project
