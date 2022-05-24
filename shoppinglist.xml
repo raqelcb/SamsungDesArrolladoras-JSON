@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <id>mercadona-rivas-luna</id>
+    <name>Mercadona La Luna</name>
+	<chain>Mercadona</chain>
+    <filename>mercadona-rivas-luna.jpg</filename>
+    <address>
+        <street>Avenida del supermercado, 10</street>
+        <city>Madrid</city>
+        <coordinates>
+        	<latitude>40.439564</latitude>
+        	<longitude>-3.690181</longitude>
+        </coordinates>
+	</address>
+	<schedule>
+		<daysOpen> Lunes - Sábado </dayOpen>
+		<hoursOpen> 9:00 - 21:30 </hoursOpen>
+		<daysClosed> Domingo </dayClosed>
+	</schedule>
+    <products>
+            <element>
+                <id>pechuga-extra-fina-bandeja</id>
+                <name>Pechugas Extra Finas</name>
+				<description>Pechugas de pollo cortadas a mano</description>
+				<brand>Mercadona</brand>
+				<filename>mercadona-pechuga-extra-fina-bandeja.jpg</filename>
+				<origin>España</origin>
+				<sku>923746923</sku>
+                <type>Carne</type>
+				<type>Aves y Conejo</type>
+				<quantity>2</quantity>
+				<measurement>500 gramos</measurement>
+				<measurement>4 unidades</measurement>
+                <price>
+					<pvpUnit>3,90</pvpUnit>
+					<pvpKg>6,00</pvpKg>
+                    <pvpDiscount>2,99</salepvpDiscountsValue> 
+                    <currency>€</currency>
+                </price>
+                <caducity>03/06/2022</caducity>
+                <validityDiscount>
+                	<end>01/06/2022</end>
+                	<start>15/06/2022</start>
+                </validityDiscount>
+                <isBpught>true</isBought>
+				<usuallyBpught>true</usuallyBought>
+            </element>
+            <element>
+                
+            </element>
+    </products>
+</root>

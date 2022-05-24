@@ -1,0 +1,79 @@
+{
+	"supermercado-00": [
+		{
+			"id": "mercadona-rivas-luna",
+			"name": "Mercadona La Luna",
+			"chain": "Mercadona",
+			"filename": "mercadona-rivas-luna.jpg",
+			"address": {
+				"street": "Calle Lolo Rico, 1",
+				"city": "Rivas Vaciamadrid",
+				"coordinates": {
+					"lat": 40.37644553720263,
+					"lon": -3.533734966434206
+				},
+				"schedule": {
+					"daysOpen": "Lunes - Sábado",
+					"hoursOpen": "9:00 - 21:30",
+					"daysClosed": "Domingo"
+				}
+			},
+			"products": [
+				{
+					"id": "mercadona-pechuga-extra-fina-bandeja",
+					"name": "Pechugas Extra Finas",
+					"description": "Pechugas de pollo cortadas a mano",
+					"brand": "Mercadona", 
+					"filename": "mercadona-pechuga-extra-fina-bandeja.jpg",
+					"origin": "España",
+					"sku": 923746923,
+					"type": [
+						"Carne",
+						"Aves y Conejo"
+					],
+					"quantity": 2,
+					"measurement":"650 gramos",
+					"price": {
+						"pvpUnit": "3,90",
+						"pvpKg": "6,00",
+						"pvpDiscount": "2,99",
+						"currency": "€"
+					},
+					"caducity": "03/06/2022",
+					"validityDiscount": {
+						"start": "01/06/2022",
+						"end": "15/06/2022"
+					},
+					"isBought": true,
+					"usuallyBought": true
+				},
+				{
+					"id": "mercadona-brocheta-pollo",
+					"name": "Brochetas Pollo Fresco",
+					"description": "Pechugas de pollo cortadas a mano",
+					"brand": "Mercadona", 
+					"filename": "mercadona-brocheta-pollo.jpg",
+					"origin": "España",
+					"sku": 237484993,
+					"type": [
+						"Carne",
+						"Aves y Conejo"
+					],					
+					"quantity": 3,
+					"measurement": [
+						"350 gramos",
+						"4 unidades"
+					],
+					"price": {
+						"pvpUnit": "3,05",
+						"pvpKg": "8,84",
+						"currency": "€"
+					},
+					"caducity": "03/06/2022",
+					"isBought": true,
+					"usuallyBought": true
+				}
+			]
+		}
+	]
+}
