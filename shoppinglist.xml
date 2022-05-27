@@ -1,53 +1,128 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+         <id>mercadona-rivas-luna</id>
+         <name>Mercadona La Luna</name>
+         <chain>Mercadona</chain>
+         <filename>mercadona-rivas-luna.jpg</filename>
+         <address>
+             <street>Calle Lolo Rico, 1</street>
+             <city>Rivas Vaciamadrid</city>
+             <coordinates>
+                 <lat>40.37644553720263</lat>
+                 <lon>-3.533734966434206</lon>
+             </coordinates>
+             <schedule>
+                 <daysOpen>Lunes - Sábado</daysOpen>
+                 <hoursOpen>9:00 - 21:30</hoursOpen>
+                 <daysClosed>Domingo</daysClosed>
+             </schedule>
+         </address>
+         <products>
+             <id>mercadona-pechuga-extra-fina-bandeja</id>
+             <name>Pechugas Extra Finas</name>
+             <description>Pechugas de pollo cortadas a mano</description>
+             <brand>Mercadona</brand>
+             <filename>assets/mercadona-pechuga-extra-fina-bandeja.jpg</filename>
+             <origin>España</origin>
+             <sku>923746923</sku>
+             <types>Carne</types>
+             <types>Aves y Conejo</types>
+             <quantity>2</quantity>
+             <measurement>650 gramos</measurement>
+             <price>
+                 <pvpUnit>3.9</pvpUnit>
+                 <pvpKg>6</pvpKg>
+                 <pvpDiscount>2.99</pvpDiscount>
+                 <currency>EUR</currency>
+             </price>
+             <expiry>06/03/2022</expiry>
+             <validityDiscount>
+                 <start>06/01/2022</start>
+                 <end>06/15/2022</end>
+             </validityDiscount>
+             <hasBeenPurchased>false</hasBeenPurchased>
+             <isUsuallyPurchased>true</isUsuallyPurchased>
+         </products>
+         <products>
+             <id>mercadona-brocheta-pollo</id>
+             <name>Brochetas Pollo Fresco</name>
+             <description>Pechugas de pollo cortadas a mano</description>
+             <brand>Mercadona</brand>
+             <filename>assets/mercadona-brocheta-pollo.jpg</filename>
+             <origin>España</origin>
+             <sku>237484993</sku>
+             <types>Carne</types>
+             <types>Aves y Conejo</types>
+             <quantity>3</quantity>
+             <measurement>350 gramos</measurement>
+             <measurement>4 unidades</measurement>
+             <price>
+                 <pvpUnit>3.05</pvpUnit>
+                 <pvpKg>8.84</pvpKg>
+                 <currency>EUR</currency>
+             </price>
+             <expiry>06/03/2022</expiry>
+             <hasBeenPurchased>false</hasBeenPurchased>
+             <isUsuallyPurchased>false</isUsuallyPurchased>
+         </products>
+         <id>lidl-rivas-futura</id>
+         <name>Lidl Rivas Futura</name>
+         <chain>Lidl</chain>
+         <filename>lidl-rivas-futura.jpg</filename>
+         <address>
+             <street>Calle Marie Curie, 2</street>
+             <city>Rivas Vaciamadrid</city>
+             <coordinates>
+                 <lat>40.33994141974007</lat>
+                 <lon>-3.52639</lon>
+             </coordinates>
+             <schedule>
+                 <daysOpen>Lunes - Domingo</daysOpen>
+                 <hoursOpen>9:00 - 21:30</hoursOpen>
+                 <sundayOpen>10:00 - 15:00</sundayOpen>
+                 <daysClosed></daysClosed>
+             </schedule>
+         </address>
+         <products>
+             <id>lidl-pechuga-pollo-bandeja</id>
+             <name>Pechugas Pollo</name>
+             <description>Pechugas de pollo fileteadas</description>
+             <brand>Lidl</brand>
+             <filename>assets/lidl-pechuga-pollo-bandeja.jpg</filename>
+             <origin>España</origin>
+             <sku>6327819</sku>
+             <types>Carne</types>
+             <types>Aves y Conejo</types>
+             <quantity>2</quantity>
+             <measurement>500 gramos</measurement>
+             <price>
+                 <pvpUnit>3.85</pvpUnit>
+                 <pvpKg>7.7</pvpKg>
+                 <currency>EUR</currency>
+             </price>
+             <expiry>05/30/2022</expiry>
+             <hasBeenPurchased>false</hasBeenPurchased>
+             <isUsuallyPurchased>true</isUsuallyPurchased>
+         </products>
+         <products>
+             <id>lidl-costillar-cerdo</id>
+             <name>Costillar de Cerdo</name>
+             <description>Costilla tira de cerdo</description>
+             <brand>Lidl</brand>
+             <filename>assets/lidl-costillar-cerdo.jpg</filename>
+             <origin>España</origin>
+             <sku>9273634</sku>
+             <types>Carne</types>
+             <types>Cerdo</types>
+             <quantity>5</quantity>
+             <measurement>1 kg</measurement>
+             <price>
+                 <pvpUnit>6.99</pvpUnit>
+                 <currency>EUR</currency>
+             </price>
+             <expiry>06/31/2022</expiry>
+             <hasBeenPurchased>true</hasBeenPurchased>
+             <isUsuallyPurchased>true</isUsuallyPurchased>
+         </products>
+ </root>
 
-    <id>mercadona-rivas-luna</id>
-    <name>Mercadona La Luna</name>
-	<chain>Mercadona</chain>
-    <filename>mercadona-rivas-luna.jpg</filename>
-    <address>
-        <street>Avenida del supermercado, 10</street>
-        <city>Madrid</city>
-        <coordinates>
-        	<latitude>40.439564</latitude>
-        	<longitude>-3.690181</longitude>
-        </coordinates>
-	</address>
-	<schedule>
-		<daysOpen> Lunes - Sábado </dayOpen>
-		<hoursOpen> 9:00 - 21:30 </hoursOpen>
-		<daysClosed> Domingo </dayClosed>
-	</schedule>
-    <products>
-            <element>
-                <id>pechuga-extra-fina-bandeja</id>
-                <name>Pechugas Extra Finas</name>
-				<description>Pechugas de pollo cortadas a mano</description>
-				<brand>Mercadona</brand>
-				<filename>mercadona-pechuga-extra-fina-bandeja.jpg</filename>
-				<origin>España</origin>
-				<sku>923746923</sku>
-                <type>Carne</type>
-				<type>Aves y Conejo</type>
-				<quantity>2</quantity>
-				<measurement>500 gramos</measurement>
-				<measurement>4 unidades</measurement>
-                <price>
-					<pvpUnit>3,90</pvpUnit>
-					<pvpKg>6,00</pvpKg>
-                    <pvpDiscount>2,99</salepvpDiscountsValue> 
-                    <currency>€</currency>
-                </price>
-                <caducity>03/06/2022</caducity>
-                <validityDiscount>
-                	<end>01/06/2022</end>
-                	<start>15/06/2022</start>
-                </validityDiscount>
-                <isBpught>true</isBought>
-				<usuallyBpught>true</usuallyBought>
-            </element>
-            <element>
-                
-            </element>
-    </products>
-</root>
